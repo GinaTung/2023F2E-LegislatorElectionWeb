@@ -25,7 +25,7 @@ function moveOutputPlugin() {
 export default defineConfig({
   // base 的寫法：
   // base: '/Repository 的名稱/'
-  base: '2023F2E-LegislatorElectionWeb',
+  base: '/2023F2E-LegislatorElectionWeb/',
   plugins: [
     liveReload(['./layout/**/*.ejs', './pages/**/*.ejs', './pages/**/*.html']),
     ViteEjsPlugin(),

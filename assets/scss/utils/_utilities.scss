@@ -480,7 +480,8 @@ $utilities: map-merge(
         semibold: $font-weight-semibold,
         bolder: $font-weight-bolder,
         //*custom
-        medium: $font-weight-medium
+        medium: $font-weight-medium,
+        black: $font-weight-black
       )
     ),
     "line-height": (

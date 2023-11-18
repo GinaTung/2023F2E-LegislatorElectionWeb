@@ -1,74 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Willmeow</title>
-  </head>
-  <body>
-    <%- include('./layout/header'); -%>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Willmeow</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+  <%- include('./layout/header'); -%>
 
     <div class="container px-4">
       <div class="banner-bg">
         <div class="row align-items-center">
           <div class="col col-lg-6">
-           <a href="#"><img src="/assets/images/img.png" alt="Willmeow" class="img-fluid"></a>
+            <a href="#"><img src="/assets/images/img.png" alt="Willmeow" class="img-fluid"></a>
           </div>
           <div class="col col-lg-6 px-10">
             <h1 class="fw-black mb-3">威爾喵<br>為喵國的未來，先鋪路</h1>
             <h5 class="fw-light mb-10">不再藏在箱子裡，威爾喵為每隻貓站出來！<br> 如果你認同我的理念，請支持我，請加入改變的行列。<br>這一次，為喵國的未來一起努力！</h5>
-              <a  class="btn btn-primary px-4 py-3 fw-medium" href="#">候選人簡介</a>
+            <a class="btn btn-primary px-4 py-3 fw-medium" href="#">候選人簡介</a>
           </div>
         </div>
       </div>
     </div>
-    <div class="ticker"></div>
-    
-    <h1 class="index-title">我是首頁</h1>
-
-    <div class="card" style="width: 18rem">
-      <img src="../assets/images/cat.jpg" class="card-img-top" alt="cat" />
-      <div class="card-body">
-        <h5 class="card-title">卡片元件</h5>
-        <p class="card-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odit, iusto odio assumenda alias id
-          nobis earum!
-        </p>
-        <img src="../assets/images/cat.jpg" class="card-img-top" alt="cat" />
+    <div class="d-flex w-100">
+      <!-- 跑馬燈 -->
+      <div class="scroll">
+        <p class="scroll-text">
+          快來喵喵 喵喵喵 喵電感應 感覺到我跟你同時觸電反應 不管相隔多遠都能互相連繫</p>
+        <p class="scroll-text">
+          快來喵喵 喵喵喵 喵電感應 感覺到我跟你同時觸電反應 不管相隔多遠都能互相連繫</p>
+      </div>
+      <div class="section-time d-flex flex-nowrap align-items-center">
+        <div class="section-time-box d-flex flex-column align-items-center px-5">
+          <p class="fs-5 fw-bold">100</p>
+          <small class="fw-medium">Days</small>
+        </div>
+        <div class="section-time-box d-flex flex-column align-items-center px-5">
+          <p class="fs-5 fw-bold">16</p>
+          <small class="fw-medium">Hours</small>
+        </div>
+        <div class="section-time-box d-flex flex-column align-items-center px-5">
+          <p class="fs-5 fw-bold">13</p>
+          <small class="fw-medium">Mins</small>
+        </div>
+        <div class="section-time-box d-flex flex-column align-items-center px-5">
+          <p class="fs-5 fw-bold">25</p>
+          <small class="fw-medium">Sec</small>
+        </div>
       </div>
     </div>
-
-    <!-- Modal 按鈕 -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      打開 modal
-    </button>
-
-    <!-- Modal 元件 -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal 標題</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="container py-20">
+      <div class="ticker-header text-center">
+        <h2 class="fw-bold mb-3">喵咪政見</h2>
+        <p class="fs-5 text-light mb-16">讓我們一起為這個貓咪友好的未來努力，為每一隻貓咪的幸福而奮鬥。<br>
+          投票給威爾喵，讓我們的未來變得更有毛！</p>
+      </div>
+      <div class="ticker-card">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="card card-ticker">
+              <img src="../assets/images/gavel.png" alt="" style="max-width: 80px" class="m-auto">
+              <div class="card-body px-0">
+                <h4 class="card-title mb-4 fw-bold">喵咪法條</h4>
+                <p class="card-text text-light">嚴禁貓奴才中途烙跑的喵咪法條，保護每一隻貓咪的權益，確保他們不再受到不負責任的對待。</p>
+              </div>
+            </div>
           </div>
-          <div class="modal-body">內容</div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
-            <button type="button" class="btn btn-primary">確定</button>
+          <div class="col-sm-3">
+            <div class="card card-ticker">
+              <img src="../assets/images/health_and_safety.png" alt="" style="max-width: 80px" class="m-auto">
+              <div class="card-body px-0">
+                <h4 class="card-title mb-4 fw-bold">喵咪健保制度</h4>
+                <p class="card-text text-light">建立一個喵咪健保制度，確保每隻貓在生病時都能獲得優質的醫療照顧，無論是貓草還是貓醫院。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card card-ticker">
+              <img src="../assets/images/gavel.png" alt="" style="max-width: 80px" class="m-auto">
+              <div class="card-body px-0">
+                <h4 class="card-title mb-4 fw-bold">貓奴案內所</h4>
+                <p class="card-text text-light">建立貓奴案內所，專門媒合貓奴與貓咪，讓每隻貓都能找到不分晝夜任勞任怨好使喚的貓僕人。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card card-ticker">
+              <img src="../assets/images/gavel.png" alt="" style="max-width: 80px" class="m-auto">
+              <div class="card-body px-0">
+                <h4 class="card-title mb-4 fw-bold">喵咪集會所</h4>
+                <p class="card-text text-light">我們將建立貓咪集會所，提供無家可歸的貓咪一個避風港，不再讓我們的同伴風吹雨淋，再也不必流浪街頭。</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="container">
+      <div class="announcement mt-20">
+        <div class="banner-bg">
+          <div class="row gx-10">
+            <div class="col my-auto">
+              <div class="card-announcement">
+                <h2 class="fw-bold mb-3">威爾喵政見發表會</h2>
+                <p class="mb-5 text-light">威爾喵是一名充滿活力、具有政治經驗的候選人，致力於改變社會，並為人民提供更好的生活。政策目標旨在實現更公平、更繁榮、更可持續的社會和經濟。
+                </p>
+                <a class="btn-outline-purple d-flex align-items-center" type="button" href="#">閱讀更多
+                  <img src="../assets/images/arrow_forward.png" alt="arrow_forward">
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <img
+                src="../assets/images/mou_2215__cat_speaking_on_stage__presidential_candidate_cat_ava_e626d97c-9a18-411b-99b5-afc3c647cf1c 1.png"
+                alt="" style="max-width: 500px;" class="rounded-5 img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container .swiper-container-container">
+
+      <div class="news my-20">
+        <h2 class="fw-bold mb-3 text-center mb-11">最新消息</h2>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card-news">
+                <img
+                  src="../assets/images/mou_2215_cat_with_apple_airpods_max__in_the_recording_studiorec_5d708550-ce7f-4b60-af37-6fd8f3025b95 2.png"
+                  alt="cat-1" class="card-img-top">
+                <div class="card-body p-6">
+                  <h5 class="card-title fw-medium mb-3 text-wrap">貓黨30週年紀念活動，邀請您一起Chill out 吸貓草</h5>
+                  <p class="card-text mb-3 d-block text-truncate text-light" style="max-width: 376px">
+                    嚴禁貓奴才中途烙跑的喵咪法條，保護每一隻貓咪的權益，確保他們不再受到不負責任的對待。</p>
+                  <a class="btn-outline-purple d-flex align-items-center" type="button" href="#">閱讀更多
+                    <img src="../assets/images/arrow_forward.png" alt="arrow_forward">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-news">
+                <img
+                  src="../assets/images/mou_2215_cat_with_apple_airpods_max__in_the_recording_studiorec_5d708550-ce7f-4b60-af37-6fd8f3025b95 2.png"
+                  alt="cat-1" class="card-img-top">
+                <div class="card-body p-6">
+                  <h5 class="card-title fw-medium mb-3 text-wrap">貓黨30週年紀念活動，邀請您一起Chill out 吸貓草</h5>
+                  <p class="card-text mb-3 d-block text-truncate text-light" style="max-width: 376px">
+                    嚴禁貓奴才中途烙跑的喵咪法條，保護每一隻貓咪的權益，確保他們不再受到不負責任的對待。</p>
+                  <a class="btn-outline-purple d-flex align-items-center" type="button" href="#">閱讀更多
+                    <img src="../assets/images/arrow_forward.png" alt="arrow_forward">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-news">
+                <img
+                  src="../assets/images/mou_2215_cat_with_apple_airpods_max__in_the_recording_studiorec_5d708550-ce7f-4b60-af37-6fd8f3025b95 2.png"
+                  alt="cat-1" class="card-img-top">
+                <div class="card-body p-6">
+                  <h5 class="card-title fw-medium mb-3 text-wrap">貓黨30週年紀念活動，邀請您一起Chill out 吸貓草</h5>
+                  <p class="card-text mb-3 d-block text-truncate text-light" style="max-width: 376px">
+                    嚴禁貓奴才中途烙跑的喵咪法條，保護每一隻貓咪的權益，確保他們不再受到不負責任的對待。</p>
+                  <a class="btn-outline-purple d-flex align-items-center" type="button" href="#">閱讀更多
+                    <img src="../assets/images/arrow_forward.png" alt="arrow_forward">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-news">
+                <img
+                  src="../assets/images/mou_2215_cat_with_apple_airpods_max__in_the_recording_studiorec_5d708550-ce7f-4b60-af37-6fd8f3025b95 2.png"
+                  alt="cat-1" class="card-img-top">
+                <div class="card-body p-6">
+                  <h5 class="card-title fw-medium mb-3 text-wrap">貓黨30週年紀念活動，邀請您一起Chill out 吸貓草</h5>
+                  <p class="card-text mb-3 d-block text-truncate text-light" style="max-width: 376px">
+                    嚴禁貓奴才中途烙跑的喵咪法條，保護每一隻貓咪的權益，確保他們不再受到不負責任的對待。</p>
+                  <a class="btn-outline-purple d-flex align-items-center" type="button" href="#">閱讀更多
+                    <img src="../assets/images/arrow_forward.png" alt="arrow_forward">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-news">
+                <img
+                  src="../assets/images/mou_2215_cat_with_apple_airpods_max__in_the_recording_studiorec_5d708550-ce7f-4b60-af37-6fd8f3025b95 2.png"
+                  alt="cat-1" class="card-img-top">
+                <div class="card-body p-6">
+                  <h5 class="card-title fw-medium mb-3 text-wrap">貓黨30週年紀念活動，邀請您一起Chill out 吸貓草</h5>
+                  <p class="card-text mb-3 d-block text-truncate text-light" style="max-width: 376px">
+                    嚴禁貓奴才中途烙跑的喵咪法條，保護每一隻貓咪的權益，確保他們不再受到不負責任的對待。</p>
+                  <a class="btn-outline-purple d-flex align-items-center" type="button" href="#">閱讀更多
+                    <img src="../assets/images/arrow_forward.png" alt="arrow_forward">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="swiper-pagination"></div> -->
+        </div>
+
+      </div>
+    </div>
+
 
     <%- include('./layout/footer'); -%>
 
-    <script type="module" src="../main.js"></script>
-  </body>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script type="module" src="../assets/js/all.js"></script>
+      <script type="module" src="../main.js"></script>
+</body>
+
 </html>

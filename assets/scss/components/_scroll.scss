@@ -1,0 +1,36 @@
+.scroll {
+    display: flex;
+    overflow: hidden;
+    background: #2C2C2C;
+    font-size: 20px;
+    letter-spacing: 3.2px;
+    width: auto;
+    border-top: 1px solid rgba(240, 228, 255, 0.2);
+    border-bottom: 1px solid rgba(240, 228, 255, 0.2);
+    color: $white;
+    white-space: nowrap;
+    padding: 29px 0;
+  
+    &-text {
+      animation: scroll 20s linear infinite;
+    }
+    
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+  .section-time{
+    background: #2C2C2C;
+    padding: 12.5px 54px;
+    max-width: 300px;
+    border: 1px solid rgba(240, 228, 255, 0.2);
+  }
+  .section-time-box{
+    width: 25%;
+  }

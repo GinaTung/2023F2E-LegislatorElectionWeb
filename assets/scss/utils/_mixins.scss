@@ -18,3 +18,7 @@
         @content;
     }
 }
+// 垂直方向的漸層
+@mixin gradient-y($start-color: $primary, $end-color: $secondary) {
+    background-image: linear-gradient(to bottom, $start-color, $end-color);
+  }

@@ -1,38 +1,4 @@
-// *{
-//     outline: 1px solid #fff;
-// }
-.container {
-    position: relative;
-    z-index: 1; /* 确保整个行在整个 .banner-bg 上方 */
-  }
-  
-  .banner-bg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: -1;
-        margin: 60px 0;
-        background-image: url("/assets/images/background\ 6.png");
-        background-position: center center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        max-height: 548px; /* 设置最大高度 */
-        filter: blur(100px);
-        border-radius: 50%; /* 将图片呈现为圆形 */
-        overflow: hidden;
-      }
-  }
-  
+.banner-bg{
+  background: no-repeat center/60% url("/assets/images/background\ 6.png");
 
-  .col.col-lg-6 {
-    position: relative;
-    z-index: 2; /* 使内容位于背景图之上 */
-  }
+}

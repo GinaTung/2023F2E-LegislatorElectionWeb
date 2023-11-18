@@ -1,0 +1,1 @@
+import"./main-cf0eed5e.js";new Swiper(".mySwiper",{autoplay:{delay:5e3},slidesPerView:3,spaceBetween:30,pagination:{el:".swiper-pagination",clickable:!0},navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"}});

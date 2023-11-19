@@ -6,8 +6,8 @@
     text-align: center;
 }
 .card-news{
-    width: 424px;
+    // width: 424px;
     border-radius: 24px !important;
     border: 1px solid rgba(240, 228, 255, 0.2) !important;
-    @include gradient-y(#7000FF, #11002D);
+    @include gradient-y(rgba(17, 0, 45, 1), rgba(17, 0, 45, 0.5));
 }

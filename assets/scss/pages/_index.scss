@@ -4,3 +4,11 @@
   padding: 80px 178px;
   border: 1px solid rgba(240, 228, 255, 0.2) !important;
 }
+.fundraising{
+  padding: 109px 270px;
+  @include gradient-y(rgba(17, 0, 45, 1), rgba(17, 0, 45, 0.5));
+  border-radius: 40px;
+}
+.element-with-gradient-border {
+  border: 1px solid rgba(240, 228, 255, 0.2) !important;
+}

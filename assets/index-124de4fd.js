@@ -1,1 +1,0 @@
-import"./main-3423f5f6.js";new Swiper(".mySwiper",{autoplay:{delay:5e3},mousewheel:!0,spaceBetween:24,breakpoints:{320:{slidesPerView:1},480:{slidesPerView:2},640:{slidesPerView:"auto"}},pagination:{el:".swiper-pagination",clickable:!0},navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"}});

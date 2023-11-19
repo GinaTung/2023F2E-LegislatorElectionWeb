@@ -1,0 +1,1 @@
+import"./main-db312b54.js";new Swiper(".mySwiper",{autoplay:{delay:5e3},mousewheel:!0,slidesPerView:"auto",spaceBetween:24,pagination:{el:".swiper-pagination",clickable:!0},navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"}});

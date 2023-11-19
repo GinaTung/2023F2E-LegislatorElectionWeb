@@ -8,9 +8,9 @@
   <title>Willmeow</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-  <script type="module" crossorigin src="/2023F2E-LegislatorElectionWeb/assets/index-4d7d5531.js"></script>
-  <link rel="modulepreload" crossorigin href="/2023F2E-LegislatorElectionWeb/assets/main-cf0eed5e.js">
-  <link rel="stylesheet" href="/2023F2E-LegislatorElectionWeb/assets/main-56a660ed.css">
+  <script type="module" crossorigin src="/2023F2E-LegislatorElectionWeb/assets/index-f520fea0.js"></script>
+  <link rel="modulepreload" crossorigin href="/2023F2E-LegislatorElectionWeb/assets/main-db312b54.js">
+  <link rel="stylesheet" href="/2023F2E-LegislatorElectionWeb/assets/main-044bae04.css">
 </head>
 
 <body>
@@ -118,7 +118,7 @@
           </div>
           <div class="col-sm-3">
             <div class="card card-ticker">
-              <img src="/2023F2E-LegislatorElectionWeb/assets/gavel-8f28f632.png" alt="" style="max-width: 80px" class="m-auto">
+              <img src="/2023F2E-LegislatorElectionWeb/assets/house-77142ab2.png" alt="" style="max-width: 80px" class="m-auto">
               <div class="card-body px-0">
                 <h4 class="card-title mb-4 fw-bold">喵咪集會所</h4>
                 <p class="card-text text-light">我們將建立貓咪集會所，提供無家可歸的貓咪一個避風港，不再讓我們的同伴風吹雨淋，再也不必流浪街頭。</p>
@@ -151,14 +151,13 @@
         </div>
       </div>
     </div>
-    <div class="container .swiper-container-container">
-
-      <div class="news my-20">
+    <div class="news my-20 overflow-hidden">
+      <div class="container">
         <h2 class="fw-bold mb-3 text-center mb-11">最新消息</h2>
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <div class="card-news">
+              <div class="card-news h-100">
                 <img
                   src="/2023F2E-LegislatorElectionWeb/assets/mou_2215_cat_with_apple_airpods_max__in_the_recording_studiorec_5d708550-ce7f-4b60-af37-6fd8f3025b95 2-dacdcc1a.png"
                   alt="cat-1" class="card-img-top">
@@ -167,79 +166,110 @@
                   <p class="card-text mb-3 d-block text-truncate text-light" style="max-width: 376px">
                     嚴禁貓奴才中途烙跑的喵咪法條，保護每一隻貓咪的權益，確保他們不再受到不負責任的對待。</p>
                   <a class="btn-outline-purple d-flex align-items-center" type="button" href="#">閱讀更多
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAP/SURBVHgBvZjPbxtFFMffvJ1ZezfFBruSg5RITQ+pBJdILVIbVJTwQ8IIIfXAv5ADCMkg4NwzBxIOXPovcCjKgXAAGQFJkWglkOBQH2hRKuFKdVQnNJtmd2aYt+DWdjfxzq7N9xDFye6+j9++eb8YWGrl7LpfqpZrkVZlzt2KRim0ZoL+x5gOFeA+6DBwIuzIPdFevbYY2Dyfpb3wvXpzxtFs1nGwpCK8E2HYBQh2q0F9//J3LKJrLi9p3vE2fBl4fvEEr6HEqkQdCsVvfbJx/k4aOyOB3n3lm2pBuAsK1H4YRq3Pv321AxZ6Z6k57RbZHAL6nLk3R4EdCUTftlvYPOMgqwWHwa+2IElgvuc+p0G2nwoutnpeTQX0/oUtTz0TvoDS6ZQfvnjzqJtttXL2upg6eTDPmJrWXb6VFF8sCYaVo0VAtv3pVxdbMAF98MYP86D0bBIU9n+g1zRpGFL8bGMDKuoc2TwSiGJGa2xPEmYAKoKdPc94KwkoPtYmgClm4H/Sg3vFFgNnmk7yE0BCO2dC4fw+rgBOoys3zoV0gimtDACRdyjPfLZ+/i5kUKP+/Wqj/uOtxmubC7b3Ujoh2x/Xf5p5BOQy97R2i39AZjEDok8B11cbrzdPgaUo4R7qg9kYKD7mGnhW78QqRJfMz19iKCaatlDkJSpJK2+u+6j9B88qR+XKwmtfLt83UMt5oKg+lli5hm7Bq0gUbcipx1D6dhYoKtaRVGWUwHwV7li1CMdCaZkNasfbReVUEZj0qIWAMWnt6+XbWaAeRjxgDnBOzVWa3EPHOjZgrX+hzC9zx11FOcnUOIGQWgqyK/29nNpOKnCjvLS28dIcpFT8imKvkEf1f6/weFFrwth+iEw5IbWdMCYlwcRxNUIFHnnUjyPlIA8qJRiDGkvNpw3MVVsYUtELfBoOUAUHe6GKypBTMYwXe2bBFoYkC7xmsnUHWWXqL+RqBnIoL0wspk/Komjj6heLgZRqt78nsZYvVvPAfGQGAO3gIbHEx14yvS0En4esUvJPA3PfJNlL1p4xCs2YRLPbwB8/rG++nMtLGUXjEdnufX6UGHud23DTPUmRrWLReR7BaT0BRD0JNfjDTfck1Rsq+qfZgdJBTXdkoj2emyYsspE0VAwAUYHDKfEzapyZJBQ9m2zIE+zacMlKHqXf3vKcv/WFUXO4rXr7AuBQAR+v0zEfvubIZUP/HC5d97dcPTc83qJQzBy3Lxi5jqERqQDufGTqDE0mtmAEQjmOM+Gl2aJYLayQ4WlHmW2ZZvdkQbSp9U1aWAF4Ja5EmUoSVQGXFbfHtrAaVhxf3XBaclVV8RKKef0rPWpnouhwhzPs7na6d6/ceMuqPf4HC71Dr+v8ryQAAAAASUVORK5CYII=" alt="arrow_forward">
+                    <span class="material-symbols-outlined">
+                      chevron_right
+                    </span>
                   </a>
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="card-news">
+              <div class="card-news h-100">
                 <img
-                  src="/2023F2E-LegislatorElectionWeb/assets/mou_2215_cat_with_apple_airpods_max__in_the_recording_studiorec_5d708550-ce7f-4b60-af37-6fd8f3025b95 2-dacdcc1a.png"
+                  src="/2023F2E-LegislatorElectionWeb/assets/mou_2215_cat_with_apple_airpods_max__in_the_recording_studiorec_5d708550-ce7f-4b60-af37-6fd8f3025b95 2 (1)-d2b5ba21.png"
                   alt="cat-1" class="card-img-top">
                 <div class="card-body p-6">
-                  <h5 class="card-title fw-medium mb-3 text-wrap">貓黨30週年紀念活動，邀請您一起Chill out 吸貓草</h5>
+                  <h5 class="card-title fw-medium mb-3 text-wrap">Meowcast： 威爾喵的政貓時刻</h5>
                   <p class="card-text mb-3 d-block text-truncate text-light" style="max-width: 376px">
                     嚴禁貓奴才中途烙跑的喵咪法條，保護每一隻貓咪的權益，確保他們不再受到不負責任的對待。</p>
                   <a class="btn-outline-purple d-flex align-items-center" type="button" href="#">閱讀更多
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAP/SURBVHgBvZjPbxtFFMffvJ1ZezfFBruSg5RITQ+pBJdILVIbVJTwQ8IIIfXAv5ADCMkg4NwzBxIOXPovcCjKgXAAGQFJkWglkOBQH2hRKuFKdVQnNJtmd2aYt+DWdjfxzq7N9xDFye6+j9++eb8YWGrl7LpfqpZrkVZlzt2KRim0ZoL+x5gOFeA+6DBwIuzIPdFevbYY2Dyfpb3wvXpzxtFs1nGwpCK8E2HYBQh2q0F9//J3LKJrLi9p3vE2fBl4fvEEr6HEqkQdCsVvfbJx/k4aOyOB3n3lm2pBuAsK1H4YRq3Pv321AxZ6Z6k57RbZHAL6nLk3R4EdCUTftlvYPOMgqwWHwa+2IElgvuc+p0G2nwoutnpeTQX0/oUtTz0TvoDS6ZQfvnjzqJtttXL2upg6eTDPmJrWXb6VFF8sCYaVo0VAtv3pVxdbMAF98MYP86D0bBIU9n+g1zRpGFL8bGMDKuoc2TwSiGJGa2xPEmYAKoKdPc94KwkoPtYmgClm4H/Sg3vFFgNnmk7yE0BCO2dC4fw+rgBOoys3zoV0gimtDACRdyjPfLZ+/i5kUKP+/Wqj/uOtxmubC7b3Ujoh2x/Xf5p5BOQy97R2i39AZjEDok8B11cbrzdPgaUo4R7qg9kYKD7mGnhW78QqRJfMz19iKCaatlDkJSpJK2+u+6j9B88qR+XKwmtfLt83UMt5oKg+lli5hm7Bq0gUbcipx1D6dhYoKtaRVGWUwHwV7li1CMdCaZkNasfbReVUEZj0qIWAMWnt6+XbWaAeRjxgDnBOzVWa3EPHOjZgrX+hzC9zx11FOcnUOIGQWgqyK/29nNpOKnCjvLS28dIcpFT8imKvkEf1f6/weFFrwth+iEw5IbWdMCYlwcRxNUIFHnnUjyPlIA8qJRiDGkvNpw3MVVsYUtELfBoOUAUHe6GKypBTMYwXe2bBFoYkC7xmsnUHWWXqL+RqBnIoL0wspk/Komjj6heLgZRqt78nsZYvVvPAfGQGAO3gIbHEx14yvS0En4esUvJPA3PfJNlL1p4xCs2YRLPbwB8/rG++nMtLGUXjEdnufX6UGHud23DTPUmRrWLReR7BaT0BRD0JNfjDTfck1Rsq+qfZgdJBTXdkoj2emyYsspE0VAwAUYHDKfEzapyZJBQ9m2zIE+zacMlKHqXf3vKcv/WFUXO4rXr7AuBQAR+v0zEfvubIZUP/HC5d97dcPTc83qJQzBy3Lxi5jqERqQDufGTqDE0mtmAEQjmOM+Gl2aJYLayQ4WlHmW2ZZvdkQbSp9U1aWAF4Ja5EmUoSVQGXFbfHtrAaVhxf3XBaclVV8RKKef0rPWpnouhwhzPs7na6d6/ceMuqPf4HC71Dr+v8ryQAAAAASUVORK5CYII=" alt="arrow_forward">
+                    <span class="material-symbols-outlined">
+                      chevron_right
+                    </span>
                   </a>
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="card-news">
+              <div class="card-news h-100">
                 <img
-                  src="/2023F2E-LegislatorElectionWeb/assets/mou_2215_cat_with_apple_airpods_max__in_the_recording_studiorec_5d708550-ce7f-4b60-af37-6fd8f3025b95 2-dacdcc1a.png"
+                  src="/2023F2E-LegislatorElectionWeb/assets/mou_2215_cat_with_apple_airpods_max__in_the_recording_studiorec_5d708550-ce7f-4b60-af37-6fd8f3025b95 2 (2)-d6c7e997.png"
                   alt="cat-1" class="card-img-top">
                 <div class="card-body p-6">
-                  <h5 class="card-title fw-medium mb-3 text-wrap">貓黨30週年紀念活動，邀請您一起Chill out 吸貓草</h5>
+                  <h5 class="card-title fw-medium mb-3 text-wrap">「Lofi Cat」 24小時音樂直播上線</h5>
                   <p class="card-text mb-3 d-block text-truncate text-light" style="max-width: 376px">
                     嚴禁貓奴才中途烙跑的喵咪法條，保護每一隻貓咪的權益，確保他們不再受到不負責任的對待。</p>
                   <a class="btn-outline-purple d-flex align-items-center" type="button" href="#">閱讀更多
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAP/SURBVHgBvZjPbxtFFMffvJ1ZezfFBruSg5RITQ+pBJdILVIbVJTwQ8IIIfXAv5ADCMkg4NwzBxIOXPovcCjKgXAAGQFJkWglkOBQH2hRKuFKdVQnNJtmd2aYt+DWdjfxzq7N9xDFye6+j9++eb8YWGrl7LpfqpZrkVZlzt2KRim0ZoL+x5gOFeA+6DBwIuzIPdFevbYY2Dyfpb3wvXpzxtFs1nGwpCK8E2HYBQh2q0F9//J3LKJrLi9p3vE2fBl4fvEEr6HEqkQdCsVvfbJx/k4aOyOB3n3lm2pBuAsK1H4YRq3Pv321AxZ6Z6k57RbZHAL6nLk3R4EdCUTftlvYPOMgqwWHwa+2IElgvuc+p0G2nwoutnpeTQX0/oUtTz0TvoDS6ZQfvnjzqJtttXL2upg6eTDPmJrWXb6VFF8sCYaVo0VAtv3pVxdbMAF98MYP86D0bBIU9n+g1zRpGFL8bGMDKuoc2TwSiGJGa2xPEmYAKoKdPc94KwkoPtYmgClm4H/Sg3vFFgNnmk7yE0BCO2dC4fw+rgBOoys3zoV0gimtDACRdyjPfLZ+/i5kUKP+/Wqj/uOtxmubC7b3Ujoh2x/Xf5p5BOQy97R2i39AZjEDok8B11cbrzdPgaUo4R7qg9kYKD7mGnhW78QqRJfMz19iKCaatlDkJSpJK2+u+6j9B88qR+XKwmtfLt83UMt5oKg+lli5hm7Bq0gUbcipx1D6dhYoKtaRVGWUwHwV7li1CMdCaZkNasfbReVUEZj0qIWAMWnt6+XbWaAeRjxgDnBOzVWa3EPHOjZgrX+hzC9zx11FOcnUOIGQWgqyK/29nNpOKnCjvLS28dIcpFT8imKvkEf1f6/weFFrwth+iEw5IbWdMCYlwcRxNUIFHnnUjyPlIA8qJRiDGkvNpw3MVVsYUtELfBoOUAUHe6GKypBTMYwXe2bBFoYkC7xmsnUHWWXqL+RqBnIoL0wspk/Komjj6heLgZRqt78nsZYvVvPAfGQGAO3gIbHEx14yvS0En4esUvJPA3PfJNlL1p4xCs2YRLPbwB8/rG++nMtLGUXjEdnufX6UGHud23DTPUmRrWLReR7BaT0BRD0JNfjDTfck1Rsq+qfZgdJBTXdkoj2emyYsspE0VAwAUYHDKfEzapyZJBQ9m2zIE+zacMlKHqXf3vKcv/WFUXO4rXr7AuBQAR+v0zEfvubIZUP/HC5d97dcPTc83qJQzBy3Lxi5jqERqQDufGTqDE0mtmAEQjmOM+Gl2aJYLayQ4WlHmW2ZZvdkQbSp9U1aWAF4Ja5EmUoSVQGXFbfHtrAaVhxf3XBaclVV8RKKef0rPWpnouhwhzPs7na6d6/ceMuqPf4HC71Dr+v8ryQAAAAASUVORK5CYII=" alt="arrow_forward">
+                    <span class="material-symbols-outlined">
+                      chevron_right
+                    </span>
                   </a>
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="card-news">
+              <div class="card-news h-100">
                 <img
-                  src="/2023F2E-LegislatorElectionWeb/assets/mou_2215_cat_with_apple_airpods_max__in_the_recording_studiorec_5d708550-ce7f-4b60-af37-6fd8f3025b95 2-dacdcc1a.png"
-                  alt="cat-1" class="card-img-top">
+                  src="/2023F2E-LegislatorElectionWeb/assets/mou_2215_cat_Ask_for_votes_cat_procession_ee1d803c-07a2-4439-aa34-de7867a09d11 1-574933cb.png"
+                  alt="cat-1" class="card-img-top img-fluid" style="max-width: 424px; max-height: 250px;height: 250px;">
                 <div class="card-body p-6">
-                  <h5 class="card-title fw-medium mb-3 text-wrap">貓黨30週年紀念活動，邀請您一起Chill out 吸貓草</h5>
+                  <h5 class="card-title fw-medium mb-3 text-wrap">與威爾喵同行掃街</h5>
                   <p class="card-text mb-3 d-block text-truncate text-light" style="max-width: 376px">
                     嚴禁貓奴才中途烙跑的喵咪法條，保護每一隻貓咪的權益，確保他們不再受到不負責任的對待。</p>
                   <a class="btn-outline-purple d-flex align-items-center" type="button" href="#">閱讀更多
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAP/SURBVHgBvZjPbxtFFMffvJ1ZezfFBruSg5RITQ+pBJdILVIbVJTwQ8IIIfXAv5ADCMkg4NwzBxIOXPovcCjKgXAAGQFJkWglkOBQH2hRKuFKdVQnNJtmd2aYt+DWdjfxzq7N9xDFye6+j9++eb8YWGrl7LpfqpZrkVZlzt2KRim0ZoL+x5gOFeA+6DBwIuzIPdFevbYY2Dyfpb3wvXpzxtFs1nGwpCK8E2HYBQh2q0F9//J3LKJrLi9p3vE2fBl4fvEEr6HEqkQdCsVvfbJx/k4aOyOB3n3lm2pBuAsK1H4YRq3Pv321AxZ6Z6k57RbZHAL6nLk3R4EdCUTftlvYPOMgqwWHwa+2IElgvuc+p0G2nwoutnpeTQX0/oUtTz0TvoDS6ZQfvnjzqJtttXL2upg6eTDPmJrWXb6VFF8sCYaVo0VAtv3pVxdbMAF98MYP86D0bBIU9n+g1zRpGFL8bGMDKuoc2TwSiGJGa2xPEmYAKoKdPc94KwkoPtYmgClm4H/Sg3vFFgNnmk7yE0BCO2dC4fw+rgBOoys3zoV0gimtDACRdyjPfLZ+/i5kUKP+/Wqj/uOtxmubC7b3Ujoh2x/Xf5p5BOQy97R2i39AZjEDok8B11cbrzdPgaUo4R7qg9kYKD7mGnhW78QqRJfMz19iKCaatlDkJSpJK2+u+6j9B88qR+XKwmtfLt83UMt5oKg+lli5hm7Bq0gUbcipx1D6dhYoKtaRVGWUwHwV7li1CMdCaZkNasfbReVUEZj0qIWAMWnt6+XbWaAeRjxgDnBOzVWa3EPHOjZgrX+hzC9zx11FOcnUOIGQWgqyK/29nNpOKnCjvLS28dIcpFT8imKvkEf1f6/weFFrwth+iEw5IbWdMCYlwcRxNUIFHnnUjyPlIA8qJRiDGkvNpw3MVVsYUtELfBoOUAUHe6GKypBTMYwXe2bBFoYkC7xmsnUHWWXqL+RqBnIoL0wspk/Komjj6heLgZRqt78nsZYvVvPAfGQGAO3gIbHEx14yvS0En4esUvJPA3PfJNlL1p4xCs2YRLPbwB8/rG++nMtLGUXjEdnufX6UGHud23DTPUmRrWLReR7BaT0BRD0JNfjDTfck1Rsq+qfZgdJBTXdkoj2emyYsspE0VAwAUYHDKfEzapyZJBQ9m2zIE+zacMlKHqXf3vKcv/WFUXO4rXr7AuBQAR+v0zEfvubIZUP/HC5d97dcPTc83qJQzBy3Lxi5jqERqQDufGTqDE0mtmAEQjmOM+Gl2aJYLayQ4WlHmW2ZZvdkQbSp9U1aWAF4Ja5EmUoSVQGXFbfHtrAaVhxf3XBaclVV8RKKef0rPWpnouhwhzPs7na6d6/ceMuqPf4HC71Dr+v8ryQAAAAASUVORK5CYII=" alt="arrow_forward">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card-news">
-                <img
-                  src="/2023F2E-LegislatorElectionWeb/assets/mou_2215_cat_with_apple_airpods_max__in_the_recording_studiorec_5d708550-ce7f-4b60-af37-6fd8f3025b95 2-dacdcc1a.png"
-                  alt="cat-1" class="card-img-top">
-                <div class="card-body p-6">
-                  <h5 class="card-title fw-medium mb-3 text-wrap">貓黨30週年紀念活動，邀請您一起Chill out 吸貓草</h5>
-                  <p class="card-text mb-3 d-block text-truncate text-light" style="max-width: 376px">
-                    嚴禁貓奴才中途烙跑的喵咪法條，保護每一隻貓咪的權益，確保他們不再受到不負責任的對待。</p>
-                  <a class="btn-outline-purple d-flex align-items-center" type="button" href="#">閱讀更多
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAP/SURBVHgBvZjPbxtFFMffvJ1ZezfFBruSg5RITQ+pBJdILVIbVJTwQ8IIIfXAv5ADCMkg4NwzBxIOXPovcCjKgXAAGQFJkWglkOBQH2hRKuFKdVQnNJtmd2aYt+DWdjfxzq7N9xDFye6+j9++eb8YWGrl7LpfqpZrkVZlzt2KRim0ZoL+x5gOFeA+6DBwIuzIPdFevbYY2Dyfpb3wvXpzxtFs1nGwpCK8E2HYBQh2q0F9//J3LKJrLi9p3vE2fBl4fvEEr6HEqkQdCsVvfbJx/k4aOyOB3n3lm2pBuAsK1H4YRq3Pv321AxZ6Z6k57RbZHAL6nLk3R4EdCUTftlvYPOMgqwWHwa+2IElgvuc+p0G2nwoutnpeTQX0/oUtTz0TvoDS6ZQfvnjzqJtttXL2upg6eTDPmJrWXb6VFF8sCYaVo0VAtv3pVxdbMAF98MYP86D0bBIU9n+g1zRpGFL8bGMDKuoc2TwSiGJGa2xPEmYAKoKdPc94KwkoPtYmgClm4H/Sg3vFFgNnmk7yE0BCO2dC4fw+rgBOoys3zoV0gimtDACRdyjPfLZ+/i5kUKP+/Wqj/uOtxmubC7b3Ujoh2x/Xf5p5BOQy97R2i39AZjEDok8B11cbrzdPgaUo4R7qg9kYKD7mGnhW78QqRJfMz19iKCaatlDkJSpJK2+u+6j9B88qR+XKwmtfLt83UMt5oKg+lli5hm7Bq0gUbcipx1D6dhYoKtaRVGWUwHwV7li1CMdCaZkNasfbReVUEZj0qIWAMWnt6+XbWaAeRjxgDnBOzVWa3EPHOjZgrX+hzC9zx11FOcnUOIGQWgqyK/29nNpOKnCjvLS28dIcpFT8imKvkEf1f6/weFFrwth+iEw5IbWdMCYlwcRxNUIFHnnUjyPlIA8qJRiDGkvNpw3MVVsYUtELfBoOUAUHe6GKypBTMYwXe2bBFoYkC7xmsnUHWWXqL+RqBnIoL0wspk/Komjj6heLgZRqt78nsZYvVvPAfGQGAO3gIbHEx14yvS0En4esUvJPA3PfJNlL1p4xCs2YRLPbwB8/rG++nMtLGUXjEdnufX6UGHud23DTPUmRrWLReR7BaT0BRD0JNfjDTfck1Rsq+qfZgdJBTXdkoj2emyYsspE0VAwAUYHDKfEzapyZJBQ9m2zIE+zacMlKHqXf3vKcv/WFUXO4rXr7AuBQAR+v0zEfvubIZUP/HC5d97dcPTc83qJQzBy3Lxi5jqERqQDufGTqDE0mtmAEQjmOM+Gl2aJYLayQ4WlHmW2ZZvdkQbSp9U1aWAF4Ja5EmUoSVQGXFbfHtrAaVhxf3XBaclVV8RKKef0rPWpnouhwhzPs7na6d6/ceMuqPf4HC71Dr+v8ryQAAAAASUVORK5CYII=" alt="arrow_forward">
+                    <span class="material-symbols-outlined">
+                      chevron_right
+                    </span>
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <!-- <div class="swiper-pagination"></div> -->
+          <div class="swiper-pagination"></div>
         </div>
 
       </div>
     </div>
+    <div class="container">
+      <div class="fundraising text-center my-20 element-with-gradient-border">
+        <h2 class="fs-2 fw-black mb-3">抖內罐罐</h2>
+        <p class="text-light mb-6">您的每一筆抖內都將讓一隻貓咪過上更好的生活。<br>點擊下方抖內按鈕，讓我們的貓咪生活更美好！</p>
+        <a class="btn btn-primary px-4 py-3 fw-medium" href="#">立即抖內</a>
+      </div>
+    </div>
+    <div class="container mb-166">
+      <div class="mailto my-20">
+        <div class="text-center">
+          <h2 class="fs-2 fw-bold mb-3">您的聲音，我們的行動！</h2>
+          <p class="text-light mb-16">親愛的朋友們，每一位喵民的意見都是我們前進的原動力。<br>
+            無論大小事，我都誠摯希望聽到您的建議。分享您的想法，一同為我們的未來打造更美好！</p>
+        </div>
+        <div class="row">
+          <div class="col-8 m-auto">
+            <form class="row ">
+              <div class="mb-3 col-6">
+                <label for="exampleInputEmail1" class="form-label">電子郵件</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="mmm@gmail.com">
+              </div>
+              <div class="mb-6 col-6">
+                <label for="exampleInputPassword1" class="form-label">您的姓名</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="請輸入姓名">
+              </div>
+              <div class="mb-15 col-12">
+                <label for="exampleFormControlTextarea1" class="form-label">您的建言</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="請輸入內容..."
+                  rows="6"></textarea>
+              </div>
+              <div class="text-end px-0">
+                <a class="btn btn-primary px-4 py-3 fw-medium" href="#">確定送出</a>
 
-
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer class="footer">
     <div class="container mt-10 mb-17">
         <nav class="navbar py-0">

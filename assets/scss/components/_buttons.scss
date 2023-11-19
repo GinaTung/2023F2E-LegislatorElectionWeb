@@ -1,7 +1,10 @@
-.btn-outline-purple{
-    color: $secondary;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-decoration: none;
-    display: inline-block;
+.btn-outline-purple {
+  color: $secondary;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  display: inline-block;
 }
+.btn-primary:hover {
+    background-color: color-mix(in srgb, #9747ff, #fff 30%) !important;
+  }

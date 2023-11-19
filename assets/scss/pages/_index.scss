@@ -22,3 +22,13 @@
 .element-with-gradient-border {
   border: 1px solid rgba(240, 228, 255, 0.2) !important;
 }
+
+.nav-size{
+  width:25%;
+  @include pad{
+    width: 50%;
+  }
+  @include mobile{
+    width: 100%;
+  }
+}

@@ -1,13 +1,25 @@
-.card-ticker{
-    background: #1C1C2F !important;
-    border-radius: 24px !important;
-    border: 1px solid rgba(240, 228, 255, 0.2) !important;
-    padding: 32px 24px;
-    text-align: center;
+.card-ticker {
+  background: #1c1c2f !important;
+  border-radius: 24px !important;
+  border: 1px solid rgba(240, 228, 255, 0.2) !important;
+  padding: 32px 24px;
+  text-align: center;
 }
-.card-news{
-    // width: 424px;
-    border-radius: 24px !important;
-    border: 1px solid rgba(240, 228, 255, 0.2) !important;
-    @include gradient-y(rgba(17, 0, 45, 1), rgba(17, 0, 45, 0.5));
+.card-news {
+  border-radius: 24px !important;
+  border: 1px solid rgba(240, 228, 255, 0.2) !important;
+  @include gradient-y(rgba(17, 0, 45, 1), rgba(17, 0, 45, 0.5));
+}
+/* 設定容器的大小 */
+.image-container {
+  max-width: 424px;
+  max-height: 250px;
+  // width: 50%; /* 顯示一半寬度 */
+  overflow: hidden; /* 隱藏超出容器的部分 */
+}
+
+/* 設定圖片的大小 */
+.image-container img {
+  width: 100%; /* 以容器寬度為基準，自動調整圖片大小 */
+  height: auto; /* 保持原始圖片的寬高比例 */
 }

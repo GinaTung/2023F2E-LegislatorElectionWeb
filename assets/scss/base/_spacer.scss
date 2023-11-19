@@ -4,4 +4,7 @@
 }
 .mb-166{
     margin-bottom: 166px;
+    @include pad{
+        margin-bottom: 80px;
+      }
   }

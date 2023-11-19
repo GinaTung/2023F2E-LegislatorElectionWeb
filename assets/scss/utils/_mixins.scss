@@ -1,3 +1,8 @@
+@mixin pc-xl {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  }
 @mixin pc-lg {
   @media (max-width: 992px) {
     @content;

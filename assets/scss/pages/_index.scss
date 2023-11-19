@@ -3,8 +3,14 @@
   border-radius: 40px;
   padding: 80px 178px;
   border: 1px solid rgba(240, 228, 255, 0.2) !important;
+  @include pc-xl{
+    padding: 40px 90px;
+  }
   @include pad{
     text-align: center;
+    padding: 36px 64px;
+  }
+  @include mobile{
     padding: 24px 12px;
   }
 }
@@ -12,8 +18,11 @@
   padding: 109px 270px;
   @include gradient-y(rgba(17, 0, 45, 1), rgba(17, 0, 45, 0.5));
   border-radius: 40px;
+  @include pc-xl{
+    padding: 40px 90px;
+  }
   @include pad{
-    padding: 55px 135px;
+    padding: 36px 64px;
   }
   @include mobile{
     padding: 24px 12px;

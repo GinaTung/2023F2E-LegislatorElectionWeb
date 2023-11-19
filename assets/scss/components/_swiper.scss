@@ -23,3 +23,17 @@
 //   height: 100%;
 //   object-fit: cover;
 // }
+.swiper-button-prev{
+  top: 95.5%;
+  left:50%;
+  @include mobile{
+    display: none;
+  }
+}
+.swiper-button-next{
+  top: 95.5%;
+  right:50%;
+  @include mobile{
+    display: none;
+  }
+}

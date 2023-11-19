@@ -1,0 +1,39 @@
+.news{
+  position: relative;
+}
+.swiper {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-slide {
+  // text-align: center;
+  // font-size: 18px;
+  // background: #fff;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  width: 33%;
+  height: 454px;
+}
+
+// .swiper-slide img {
+//   display: block;
+//   width: 100%;
+//   height: 100%;
+//   object-fit: cover;
+// }
+.swiper-button-prev{
+  top: 95.5%;
+  left:50%;
+  @include mobile{
+    display: none;
+  }
+}
+.swiper-button-next{
+  top: 95.5%;
+  right:50%;
+  @include mobile{
+    display: none;
+  }
+}

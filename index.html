@@ -1,312 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <script type="module" crossorigin src="/2023F2E-LegislatorElectionWeb/assets/main-e967f8c7.js"></script>
+    <link rel="stylesheet" href="/2023F2E-LegislatorElectionWeb/assets/main-7dc37090.css">
+  </head>
+  <body>
+    
+    <h1 class="index-title">我是首頁</h1>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Willmeow</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <div class="card" style="width: 18rem">
+      <img src="/2023F2E-LegislatorElectionWeb/assets/cat-0c0689ae.jpg" class="card-img-top" alt="cat" />
+      <div class="card-body">
+        <h5 class="card-title">卡片元件</h5>
+        <p class="card-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odit, iusto odio assumenda alias id
+          nobis earum!
+        </p>
+        <img src="/2023F2E-LegislatorElectionWeb/assets/cat-0c0689ae.jpg" class="card-img-top" alt="cat" />
+      </div>
+    </div>
 
-  <script type="module" crossorigin src="/2023F2E-LegislatorElectionWeb/assets/index-b1375c56.js"></script>
-  <link rel="modulepreload" crossorigin href="/2023F2E-LegislatorElectionWeb/assets/main-eaae2955.js">
-  <link rel="stylesheet" href="/2023F2E-LegislatorElectionWeb/assets/main-c96a24ff.css">
-</head>
+    <!-- Modal 按鈕 -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      打開 modal
+    </button>
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light py-5 sticky-top">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Willmeow</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav m-auto mb-lg-0 align-items-center">
-          <li class="nav-item">
-            <a class="nav-link px-3" aria-current="page" href="#">最新消息</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link px-3" href="#">喵咪政見</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link px-3" href="#">抖內罐罐</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link px-3" href="#">喵咪信箱</a>
-          </li>
-        </ul>
-        <span class="navbar-text">
-        </span>
-      </div>
-    </div>
-  </nav>
-    <div class="container px-4">
-      <div class="banner-bg">
-        <div class="row align-items-center">
-          <div class="col-12 col-lg-6 mb-5 mb-lg-0">
-            <a href="#"><img src="/2023F2E-LegislatorElectionWeb/assets/img-980dff1d.png" alt="Willmeow" class="img-fluid"></a>
+    <!-- Modal 元件 -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal 標題</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="col-12 col-lg-6 px-10  mb-5 mb-lg-0">
-            <h1 class="fw-black mb-3">威爾喵<br>為喵國的未來，先鋪路</h1>
-            <h5 class="fw-light mb-10">不再藏在箱子裡，威爾喵為每隻貓站出來！<br> 如果你認同我的理念，請支持我，請加入改變的行列。<br>這一次，為喵國的未來一起努力！</h5>
-            <a class="btn btn-primary px-4 py-3 fw-medium" href="#">候選人簡介</a>
+          <div class="modal-body">內容</div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+            <button type="button" class="btn btn-primary">確定</button>
           </div>
         </div>
       </div>
     </div>
-    <div class="d-flex w-100">
-      <!-- 跑馬燈 -->
-      <div class="scroll overflow-hidden">
-        <p class="scroll-text">
-          快來喵喵 喵喵喵 喵電感應 感覺到我跟你同時觸電反應 不管相隔多遠都能互相連繫</p>
-        <p class="scroll-text">
-          快來喵喵 喵喵喵 喵電感應 感覺到我跟你同時觸電反應 不管相隔多遠都能互相連繫</p>
-      </div>
-      <div class="section-time d-flex flex-nowrap align-items-center">
-        <div class="section-time-box d-flex flex-column align-items-center px-5">
-          <p class="fs-5 fw-bold">100</p>
-          <small class="fw-medium">Days</small>
-        </div>
-        <div class="section-time-box d-flex flex-column align-items-center px-5">
-          <p class="fs-5 fw-bold">16</p>
-          <small class="fw-medium">Hours</small>
-        </div>
-        <div class="section-time-box d-flex flex-column align-items-center px-5">
-          <p class="fs-5 fw-bold">13</p>
-          <small class="fw-medium">Mins</small>
-        </div>
-        <div class="section-time-box d-flex flex-column align-items-center px-5">
-          <p class="fs-5 fw-bold">25</p>
-          <small class="fw-medium">Sec</small>
-        </div>
-      </div>
-    </div>
-    <div class="container py-20">
-      <div class="ticker-header text-center">
-        <h2 class="fw-bold mb-3">喵咪政見</h2>
-        <p class="fs-5 text-light mb-16">讓我們一起為這個貓咪友好的未來努力，為每一隻貓咪的幸福而奮鬥。<br>
-          投票給威爾喵，讓我們的未來變得更有毛！</p>
-      </div>
-      <div class="ticker-card">
-        <div class="row">
-          <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="card card-ticker h-100">
-              <img src="/2023F2E-LegislatorElectionWeb/assets/gavel-8f28f632.png" alt="gavel" style="max-width: 80px" class="m-auto">
-              <div class="card-body px-0">
-                <h4 class="card-title mb-4 fw-bold">喵咪法條</h4>
-                <p class="card-text text-light">嚴禁貓奴才中途烙跑的喵咪法條，保護每一隻貓咪的權益，確保他們不再受到不負責任的對待。</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="card card-ticker h-100">
-              <img src="/2023F2E-LegislatorElectionWeb/assets/health_and_safety-33a82eee.png" alt="" style="max-width: 80px" class="m-auto">
-              <div class="card-body px-0">
-                <h4 class="card-title mb-4 fw-bold">喵咪健保制度</h4>
-                <p class="card-text text-light">建立一個喵咪健保制度，確保每隻貓在生病時都能獲得優質的醫療照顧，無論是貓草還是貓醫院。</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="card card-ticker h-100">
-              <img src="/2023F2E-LegislatorElectionWeb/assets/gavel-8f28f632.png" alt="" style="max-width: 80px" class="m-auto">
-              <div class="card-body px-0">
-                <h4 class="card-title mb-4 fw-bold">貓奴案內所</h4>
-                <p class="card-text text-light">建立貓奴案內所，專門媒合貓奴與貓咪，讓每隻貓都能找到不分晝夜任勞任怨好使喚的貓僕人。</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="card card-ticker h-100">
-              <img src="/2023F2E-LegislatorElectionWeb/assets/house-77142ab2.png" alt="" style="max-width: 80px" class="m-auto">
-              <div class="card-body px-0">
-                <h4 class="card-title mb-4 fw-bold">喵咪集會所</h4>
-                <p class="card-text text-light">我們將建立貓咪集會所，提供無家可歸的貓咪一個避風港，不再讓我們的同伴風吹雨淋，再也不必流浪街頭。</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="announcement mt-20">
-        <div class="banner-bg">
-          <div class="row gx-10">
-            <div class="col-12 col-md-6 my-auto">
-              <div class="card-announcement">
-                <h2 class="fw-bold mb-3">威爾喵政見發表會</h2>
-                <p class="mb-5 text-light">威爾喵是一名充滿活力、具有政治經驗的候選人，致力於改變社會，並為人民提供更好的生活。政策目標旨在實現更公平、更繁榮、更可持續的社會和經濟。
-                </p>
-                <a class="btn-outline-purple d-flex align-items-center justify-content-center justify-content-md-start" type="button" href="#">閱讀更多
-                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAP/SURBVHgBvZjPbxtFFMffvJ1ZezfFBruSg5RITQ+pBJdILVIbVJTwQ8IIIfXAv5ADCMkg4NwzBxIOXPovcCjKgXAAGQFJkWglkOBQH2hRKuFKdVQnNJtmd2aYt+DWdjfxzq7N9xDFye6+j9++eb8YWGrl7LpfqpZrkVZlzt2KRim0ZoL+x5gOFeA+6DBwIuzIPdFevbYY2Dyfpb3wvXpzxtFs1nGwpCK8E2HYBQh2q0F9//J3LKJrLi9p3vE2fBl4fvEEr6HEqkQdCsVvfbJx/k4aOyOB3n3lm2pBuAsK1H4YRq3Pv321AxZ6Z6k57RbZHAL6nLk3R4EdCUTftlvYPOMgqwWHwa+2IElgvuc+p0G2nwoutnpeTQX0/oUtTz0TvoDS6ZQfvnjzqJtttXL2upg6eTDPmJrWXb6VFF8sCYaVo0VAtv3pVxdbMAF98MYP86D0bBIU9n+g1zRpGFL8bGMDKuoc2TwSiGJGa2xPEmYAKoKdPc94KwkoPtYmgClm4H/Sg3vFFgNnmk7yE0BCO2dC4fw+rgBOoys3zoV0gimtDACRdyjPfLZ+/i5kUKP+/Wqj/uOtxmubC7b3Ujoh2x/Xf5p5BOQy97R2i39AZjEDok8B11cbrzdPgaUo4R7qg9kYKD7mGnhW78QqRJfMz19iKCaatlDkJSpJK2+u+6j9B88qR+XKwmtfLt83UMt5oKg+lli5hm7Bq0gUbcipx1D6dhYoKtaRVGWUwHwV7li1CMdCaZkNasfbReVUEZj0qIWAMWnt6+XbWaAeRjxgDnBOzVWa3EPHOjZgrX+hzC9zx11FOcnUOIGQWgqyK/29nNpOKnCjvLS28dIcpFT8imKvkEf1f6/weFFrwth+iEw5IbWdMCYlwcRxNUIFHnnUjyPlIA8qJRiDGkvNpw3MVVsYUtELfBoOUAUHe6GKypBTMYwXe2bBFoYkC7xmsnUHWWXqL+RqBnIoL0wspk/Komjj6heLgZRqt78nsZYvVvPAfGQGAO3gIbHEx14yvS0En4esUvJPA3PfJNlL1p4xCs2YRLPbwB8/rG++nMtLGUXjEdnufX6UGHud23DTPUmRrWLReR7BaT0BRD0JNfjDTfck1Rsq+qfZgdJBTXdkoj2emyYsspE0VAwAUYHDKfEzapyZJBQ9m2zIE+zacMlKHqXf3vKcv/WFUXO4rXr7AuBQAR+v0zEfvubIZUP/HC5d97dcPTc83qJQzBy3Lxi5jqERqQDufGTqDE0mtmAEQjmOM+Gl2aJYLayQ4WlHmW2ZZvdkQbSp9U1aWAF4Ja5EmUoSVQGXFbfHtrAaVhxf3XBaclVV8RKKef0rPWpnouhwhzPs7na6d6/ceMuqPf4HC71Dr+v8ryQAAAAASUVORK5CYII=" alt="arrow_forward" class="ms-3">
-                </a>
-              </div>
-            </div>
-            <div class="col-12 col-md-6">
-              <img
-                src="/2023F2E-LegislatorElectionWeb/assets/cat-m-1-5a4d3088.png"
-                alt="cat-1" class="rounded-5 img-fluid">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="news my-20 overflow-hidden">
-      <div class="container">
-        <h2 class="fw-bold mb-3 text-center mb-11">最新消息</h2>
-        <div class="swiper mySwiper pb-20">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="card-news h-100">
-                <div class="image-container">
-                <img
-                  src="/2023F2E-LegislatorElectionWeb/assets/cat1-02b2531e.png"
-                  alt="cat-1" class="card-img-top">
-                </div>
-                <div class="card-body p-6">
-                  <h5 class="card-title fw-medium mb-3 text-wrap">貓黨30週年紀念活動，邀請您一起Chill out 吸貓草</h5>
-                  <p class="card-text mb-3 d-block text-truncate text-light" style="max-width: 376px">
-                    嚴禁貓奴才中途烙跑的喵咪法條，保護每一隻貓咪的權益，確保他們不再受到不負責任的對待。</p>
-                </div>
-                <div class="card-footer px-6">
-                  <a class="btn-outline-purple d-flex align-items-center" type="button" href="#">閱讀更多
-                    <span class="material-symbols-outlined">
-                      chevron_right
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card-news h-100">
-                <div class="image-container">
-                <img
-                  src="/2023F2E-LegislatorElectionWeb/assets/cat2-25c76868.png"
-                  alt="cat-1" class="card-img-top">
-                </div>
-                <div class="card-body p-6">
-                  <h5 class="card-title fw-medium mb-3 text-wrap">Meowcast： 威爾喵的政貓時刻</h5>
-                  <p class="card-text mb-3 d-block text-truncate text-light" style="max-width: 376px">
-                    嚴禁貓奴才中途烙跑的喵咪法條，保護每一隻貓咪的權益，確保他們不再受到不負責任的對待。</p>
-                </div>
-                <div class="card-footer px-6">
-                  <a class="btn-outline-purple d-flex align-items-center" type="button" href="#">閱讀更多
-                    <span class="material-symbols-outlined">
-                      chevron_right
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card-news h-100">
-                <div class="image-container">
-                <img
-                  src="/2023F2E-LegislatorElectionWeb/assets/cat3-4bfeb38d.png"
-                  alt="cat-1" class="card-img-top">
-                </div>
-                <div class="card-body p-6 ">
-                  <h5 class="card-title fw-medium mb-3 text-wrap">「Lofi Cat」 24小時音樂直播上線</h5>
-                  <p class="card-text mb-3 d-block text-truncate text-light" style="max-width: 376px">
-                    嚴禁貓奴才中途烙跑的喵咪法條，保護每一隻貓咪的權益，確保他們不再受到不負責任的對待。</p>
-                </div>
-                <div class="card-footer px-6">
-                  <a class="btn-outline-purple d-flex align-items-center" type="button" href="#">閱讀更多
-                    <span class="material-symbols-outlined">
-                      chevron_right
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card-news h-100">
-                <div class="image-container">
-                  <img
-                    src="/2023F2E-LegislatorElectionWeb/assets/cat4-47322c8c.png"
-                    alt="cat-4" class="card-img-top">
-                </div>
-                <div class="card-body p-6">
-                  <h5 class="card-title fw-medium mb-3 text-wrap">與威爾喵同行掃街</h5>
-                  <p class="card-text mb-3 d-block text-truncate text-light" style="max-width: 376px">
-                    嚴禁貓奴才中途烙跑的喵咪法條，保護每一隻貓咪的權益，確保他們不再受到不負責任的對待。</p>
-                </div>
-                <div class="card-footer px-6">
-                  <a class="btn-outline-purple d-flex align-items-center" type="button" href="#">閱讀更多
-                    <span class="material-symbols-outlined">
-                      chevron_right
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- <div class="swiper-pagination"></div> -->
-        <div class="d-flex mb-3">
-          <img src="data:image/png;base64,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" alt="" class="swiper-button-next img-fluid mx-3" style="width: 48px;">
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAdfSURBVHgBrVlLbx01FP7smbmTm9ykadJHSmlBFUUqbaHtol0gNixg0RVS/wQbHj+CLfAP+AEs2UB3sAKpXSRSoeWlijQ0fYQ09z1Pczz3EY+v7bk3qaXR2DO2z3eOv3PsOcPwEooQImzv4Jzv4XjOsRgAqxAIc4aw6MAhOEMzydFiwPOUrijC1vHjrIVDFoYDFgm6t4MrnofTguMU99DmHBE8xPQspntG3bKhjJxqpBf8OMYcY5jLEoQixx6NWW9F+PegysysQAG8iSsE4rIXIAoCtAlsV+9maQtFrsgi1JMUS4wuIXC/neLOrIrMpEB3T9zwfVwmi/dqc9iFtKwZ4KjOLO9L/dIUAUuwlMZY5cCd2jK7g5epwM6OWGqEuElWXwjm8YQeJRpIEzBX2/hcKpJHWM2IeJ0Y302zGpUKRC1xgRzz3YCh49ULq+sAdCVg6TNNfUCtHo7mORrkJz/Vj7KHOKgC3a64wTNcC+t4TDzvm4QpbRP4aVdEbRdzy9VIe3g197C+sMDuYlYFhny/SpTZwj5lDgNOfyaq+o2VyLGxsGxWgpse9nriHIW3a0E4AV6WKtrZrOoCrPct6mTAZK6OzYDjcrMp3jQNmFBAOqyX432izSOiTeIAwrTnTHnuAgltHlt7sH+QEkEdW6HAdfFUNFClwGKIj2jX7BD41CJAGAQC9lAKxzi1zgzzDYzhI/JCNHsBPoBLAcl7Ag4t2tgE2to6KOMmBjO1rPOTAi9o45zrvBDXYFJAUod4fz2Yw44ymKFMDcBuSZVKJnAMZpA6WNtKilqIbWLHBToN1CYUmA9x3a8V4FMNQI7pLGsCUhXzbcU8zkdMBm4nXVwsKSCtzzJcoENYq2JS1ZJ2QW6qCcvcqgzrODrGvKDwOl6FQoGawGleQ1OeJOF2skFksAOYpZhopr+fqFNozcgXekkHb2GsQIB3iP9Ny+Q6nWxh0sRhl5O6fMEZyQhvK89wqlBA0oeWZdmrjY/Eekw3hTebMLUwQ39b27YKML7z0UsZTkoacUkfOovHjkHWqACzsJN0fTy8jxRxObppDlNUK42lw2UrauIs9zmOBT5tXO7lHgGZpnxI1y26vlSUMM1pM4i66rYxwuPoE/9XOPdxjOijnjT1MuK+/vGiClAV/4GubbrW6PpqqIRKS30OmzwoCunvyREQM4EGzwUWgYljg85fZgFv2rQe0/W5psQaJmkBTNLFJMtIYZ8+VRK5AoyyCMqhTaeQiTYupxu1tzUlvkaZTq7NcRTpTPL2+1I4ZTlCDne4E4Az0pjKqL8E/5mixBeGvmq0yw1z2PxkoChDwDEZKkdtV0gzTSgcfWVpaM9tZyZUzFN6zmkP6MN+UBOOiWz0GhVJGUkdaX25Cp86+pr8zga6ZCyf3FfuAXIlMq2jOrEr/JnKmgH8YwMQde58Cvn7SqbwKYK2OKUDn2XxMAVYTQXncg7vOvhPDOCBScPoVNYVU9syl1SjVGWby3xlNkj7wSIEFaDVtux/C2XLb1vGiIo2FAyTlGao0Yv/aCPGc9LpdZSX1UUbwO0j39Ilj+Xfw2x5tV51XrJioCRbPY2wyzef4KFIxxHC9NVkmtxmLVmkxb9RwFdFGRjmB9x+JyjpNReRLH7+PItoM9uWiVa4+a+Csa1Q1crpAAfx3C4DWn1QUsxTZrt14gRrF98DtKNtZTkahklcS6uvlgkMLHPqzmt6LgxyiveUoj9Ckn6T9UKB4Ag2KMUdDts2kKadUi9syve6Yq667i9+Tun4ZlwkmQcKMMZignePwumyJky3FCwASiHO8b6KonD0KwxIVD8iGP6S9BkrIItchSTBPOTmVp7Edq8Santvc9Kq+YtcaRLhWLuPjdGzsQJyFTyGe/3O+Og7fjWlUNMJssryJt7DIgOUdl+lX1nrI+uXFJClRmlsLtAlJzlqAOKykH6atDkmLGNhAT6WSTF/JY/hhw22oXacyI02+7id99FIB07NLAKFQZDLgU39bc90px0cG/pYaue4rc07qYD8rZMw/EIav0JNzyLIVKqsLSrG6FQqPmwk+LyLM70MP6vUsSogy9IS+538Yb3fwhnsO/Us5yIb0GkCwGg15eVTGvEsmfHX1VW2aRrozDTElAnOON6mnwz/FAdvu7VM9ar3Lp+StJkjy5+W4HXeY1oFZKG/Na+hh/d4iFZtfpy5Vp3UdX7SfQOWesmv0g5Wiv/HIe7W6+xvOMpUuR7KgDV6e7hZqyGnfwfPgNJqmABXhUbzO/pIiROcShP0OxF+NHH+QAqMSrwrrmZe8e/sOX2K7sl/WKgGa1uh0pdW1sVKTOcx8r0HLsocSoFCMq0GOfdVqr5Bn3RNHhSKqHnVqlUY19M+5uUhkv7S18nHHvzxEPcvXWIxZigzKzBGQT/cohBrGcNFX+aWOP3H4ugK+p88XJlYAcyLi/aWNKOwmCGkA9kiZdaeMh/bBwF+aAVMyshcJQXvFfq+aOTyI8kbWLtIHtNF1NuJI7Rpc9n98xE2DwpaLf8D6zwh+d9ze4gAAAAASUVORK5CYII=" alt="" class="swiper-button-prev img-fluid mx-3" style="width: 48px;">
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="fundraising text-center my-20 element-with-gradient-border">
-        <h2 class="fs-2 fw-black mb-3">抖內罐罐</h2>
-        <p class="text-light mb-6">您的每一筆抖內都將讓一隻貓咪過上更好的生活。<br>點擊下方抖內按鈕，讓我們的貓咪生活更美好！</p>
-        <a class="btn btn-primary px-4 py-3 fw-medium" href="#">立即抖內</a>
-      </div>
-    </div>
-    <div class="container mb-166">
-      <div class="mailto my-20">
-        <div class="text-center">
-          <h2 class="fs-2 fw-bold mb-3">您的聲音，我們的行動！</h2>
-          <p class="text-light mb-16">親愛的朋友們，每一位喵民的意見都是我們前進的原動力。<br>
-            無論大小事，我都誠摯希望聽到您的建議。分享您的想法，一同為我們的未來打造更美好！</p>
-        </div>
-        <div class="row">
-          <div class="col-12 col-md-8 m-auto">
-            <form class="row ">
-              <div class="mb-3 col-12 col-md-6">
-                <label for="exampleInputEmail1" class="form-label">電子郵件</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                  placeholder="mmm@gmail.com">
-              </div>
-              <div class="mb-6 col-12 col-md-6">
-                <label for="exampleInputPassword1" class="form-label">您的姓名</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="請輸入姓名">
-              </div>
-              <div class="mb-15 col-12">
-                <label for="exampleFormControlTextarea1" class="form-label">您的建言</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="請輸入內容..."
-                  rows="6"></textarea>
-              </div>
-              <div class="text-end px-sm-0">
-                <a class="btn btn-primary px-4 py-3 fw-medium" href="#">確定送出</a>
 
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-    <footer class="footer">
-    <div class="container mt-5 mt-sm-10 mb-17">
+    <footer class="footer border-top">
+    <div class="container mt-10 mb-17">
         <nav class="navbar py-0">
             <a href="index.html" class="navbar-brand">
                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAfCAYAAABOFucfAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAcCSURBVHgB7VyBdeM2DEXyOoBvglMnqG+CqhNcuoE6QdIJrJsg7gTWTZDcBFIn8HUCuxPEnQAlIupCQwAJykne5az/niKLBEGQAkEQpHKBiFsAWMATDhcXFx9gAhyv0t2WrvwaJsCVb92tCJL2jtdvkAnHp3C3liWXjte/Au2Vu92eWueM7wTuhdY4RgkT4MptvFJOKVsIcmxgAhRe7xXaitHtYMbbhXuBi+dQJKZEJWTCDwaOJaO5pgHjrq27bkl2gyyzQp8bvJKEeNCUJcJjE5TPttKkSEyGLcuvBCW9U3jNCn3OcC+xFBTgJpPHjpU3DwhHeyXUXzGaVqBBhd+s0GeKS/rjFkGdux1Y3kcwwitfwZJzBoRUV8eeDzBjhhUoLw7fG8tuhbIPxrKmxSDKs8g6g+dsoc8Al8HvRsj/AxJAH6oTsmixeQVplELaZ57gZ5HfobfcdH1yaVlu0YwzAwqLQ0OZDepILg6FOk+2kLOFPl9csmduGRcYCcFhv4FRgY7SUJ7nf4IZMyaCK/Q9jBdfMbdBysspvxLSOnjD8LND6a9kpAf7fYClp19iZrjUIMMSzhmuA9ZsClZj0jgO1W1OLH+fkK1lV6XQvYjLIdS/DOq79W3l2LlrxfsAe2VrUQalF5ABz2+jyICx/krwvZbk8fXdYWKd5Nse9tmdoc7HAWmg47w3EpEpJo3yRsdgZThqYz2pzknyDTqE4zkUWmuvpkRHfLG3xnTdoQ3JRXUmP8ItGIHHfbNj/Ru2eWnkMaBM1LvBxPoL5XdcacQtI2wNNNtI3oMiNEodFmkERw32xr6EQlNZizJ/kxfzlC+6Y4t9O3eYD9PRBhy/x9Kn8xDvOsJjgeM+WifadFSfQicNlEIjvhGIF0qlA6ogX7K+JWskR7KThTI1pDtlwEso9I79rj0/uhpMo8W+ryt/3wk0NxF5WoGelGcd8GwUviWk+/tBkgXHbUtZ01qQUXNDNxa+ON770PUH5VFVK5USdpDujDbIs4+uY56oycToXkuhB2gbPGuFnvqmVOTm/XZvlJtAirZQ+HIFkGZd7ufvWJkrpV33Go8hTZD1SpGTo5xKxwtxoXcRZtLOXi3QDYuolqWbDjMJ/GqF7jUVehOhL5QyVaRMa5EHxwoaddlQXtvwWZcG0w6f3lM4U1N6ofAa6K8DHotEu6QBtRFktNBtIQVU3AY0WldUrDzmOPNjnhy1QvdaCv2AiZlFKJNSvJG7B7b2VZAAKhbX562ldvn+qXEc5Sh8ehnQqfKgrE8pN3ZAmWhHBRbg2AqsMSPUhmNfa/DvQph35nCMWqF7LYWe4vevE/QjgyHQSKcTk/FmHFvJKshrLH07hXdAs9XqQOOOs9D2o/d1mZDzC3u+hvGputgLatjzwvMI0cHbxT+Qj30in29M0Uvkg7EQym0xAZDPzQz4yp65y/C4a4z9gCshjU5I4zvRv3reBRzvOO/huJ/KoM6PsXpSCp36NnDvDw2J8HkdxPEXvF1MOdJ6ODGfcPJuIof/DjRU6ob+eEVeuZ9kCclS0qzUYj9TVwF9aPzo4NheqKaB4/YNirpidKT4/AjECuWjFkd0UYV2QlHlXYTEcu7iSyTvq6vjK8zIxZSBlIT/OJo+EH5H78UrEC24ahgPIsrbYB9XX/gBQWU/uN+1wp/k5laaZuwqeN67q3G0DRzrXgljxf+iDBwdKDvzAwpDeWlxOKCCDAjla4XutXzoCvJlrhL0ZUp2nOhD5wDzNm3I3THNGhjXp6P+MdCOQn8pl0P7moXQWEaHH5WaW9HBjCnohLTkNnkmwn8pQe/wZ3/RrPwOems8gAaTaUs94YbuvWW20kbP/qhAOaZcZJR/ri/LOWqF7oe20J6uZTTZHzZHZFgx3luFjsM0qFC3vNUptISkhfbgi8Mux3dRfPHPMOMU8PULKXOLEUODfoGHifMh0PvMIZY4jkNXQvEcK81n/SPrzGg7gY2UZlNoQSGnKGP4AqLRkRlp+P7jUy5N/TvsF2o0qw6bInS0lVwImn1qiH+UoVnZO3zabKH7SqChmbEEG7gbGgsw/Mmem4vcxSAHPi1EJn+ihE+B9QomQJh2aoXuh3c5PO0C5Q+UU4gd+mki5XbY72TGThhWYAAeBwssn+qFcqkLYKvLQeignyamOeI9Pge8ZpwImjl9qC03lk8DXnM7YiHBAnq3Iuarm0KKftYfQrqW8G/teXexUO9PYAQJ4DqBTH8H09F4XnuYhoY9aw07CLT/KbR7RnvIqH8PaTSZZfZgl/0R9PU79lvqN+76BXrXI1S6g+f7t7vuE+4eGSy+m0v9XAg8D8D+uSbo70TC42aOxf0knfH69yIx+BlvADgx6oG9e7n115VPK/DpbHU98Pa/ia7F7+D7xf8BOnH4bYseuFUAAAAASUVORK5CYII=" alt="Willmeow" >
             </a>
             <div>
-                <ul class="navbar-nav ms-auto flex-row mb-4 flex-wrap">
-                    <li class="nav-item nav-size">
+                <ul class="navbar-nav ms-auto flex-row mb-4">
+                    <li class="nav-item">
                         <a class="nav-link px-3" aria-current="page" href="#">最新消息</a>
                     </li>
-                    <li class="nav-item nav-size">
+                    <li class="nav-item">
                         <a class="nav-link px-3" href="#">喵咪政見</a>
                     </li>
-                    <li class="nav-item nav-size">
+                    <li class="nav-item">
                         <a class="nav-link px-3" href="#">抖內罐罐</a>
                     </li>
-                    <li class="nav-item nav-size">
+                    <li class="nav-item">
                         <a class="nav-link px-3" href="#">喵咪信箱</a>
                     </li>
                 </ul>
@@ -323,9 +86,6 @@
     </div>
     <p class="text-center text-light py-3">© 2023 Willmeow All Rights Reserved.</p>
 </footer>
-      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-      
-      
-</body>
-
+    
+  </body>
 </html>

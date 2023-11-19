@@ -1,0 +1,10 @@
+.px-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mb-166{
+    margin-bottom: 166px;
+    @include pad{
+        margin-bottom: 80px;
+      }
+  }

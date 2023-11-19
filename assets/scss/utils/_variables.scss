@@ -413,7 +413,7 @@ $position-values: (
 //
 // Settings for the `<body>` element.
 
-$body-bg:                   #0A0A20 !default;
+$body-bg:                   #0A0A20 !default;//*custom
 $body-color:                $white !default;//*custom
 $body-text-align:           null !default;
 
@@ -510,7 +510,7 @@ $border-color-translucent:    rgba($black, .175) !default;
 $border-radius:               .375rem !default;
 $border-radius-sm:            .25rem !default;
 $border-radius-lg:            .5rem !default;
-$border-radius-xl:            1rem !default;
+$border-radius-xl:            1rem !default;//16
 $border-radius-2xl:           2rem !default;
 $border-radius-pill:          50rem !default;
 // scss-docs-end border-radius-variables
@@ -574,6 +574,7 @@ $font-weight-normal:          400 !default;
 $font-weight-semibold:        600 !default;
 $font-weight-bold:            700 !default;
 $font-weight-medium:          500 !default;//*custom
+$font-weight-black:           900 !default;//*custom
 $font-weight-bolder:          bolder !default;
 
 $font-weight-base:            $font-weight-normal !default;
@@ -582,10 +583,10 @@ $line-height-base:            1.5 !default;
 $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 //*custom
-$h1-font-size:                $font-size-base * 2.5 !default;
-$h2-font-size:                $font-size-base * 2.25 !default;
-$h3-font-size:                $font-size-base * 1.875 !default;
-$h4-font-size:                $font-size-base * 1.5 !default;
+$h1-font-size:                $font-size-base * 2.5 !default;//40
+$h2-font-size:                $font-size-base * 2.25 !default;//36
+$h3-font-size:                $font-size-base * 1.875 !default;//30
+$h4-font-size:                $font-size-base * 1.5 !default;//24
 $h5-font-size:                $font-size-base * 1.25 !default;
 $h6-font-size:                $font-size-base !default;
 // scss-docs-end font-variables
@@ -606,7 +607,7 @@ $headings-margin-bottom:      $spacer * .5 !default;
 $headings-font-family:        null !default;
 $headings-font-style:         null !default;
 $headings-font-weight:        500 !default;
-$headings-line-height:        1.2 !default;
+$headings-line-height:        1.5 !default;//*custom
 $headings-color:              null !default;
 // scss-docs-end headings-variables
 
@@ -789,9 +790,9 @@ $btn-link-hover-color:        var(--#{$prefix}link-hover-color) !default;
 $btn-link-disabled-color:     $gray-600 !default;
 
 // Allows for customizing button radius independently from global border radius
-$btn-border-radius:           $border-radius !default;
-$btn-border-radius-sm:        $border-radius-sm !default;
-$btn-border-radius-lg:        $border-radius-lg !default;
+$btn-border-radius:           8px !default;//*custom
+$btn-border-radius-sm:        8px !default;//*custom
+$btn-border-radius-lg:        8px !default;//*custom
 
 $btn-transition:              color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
 

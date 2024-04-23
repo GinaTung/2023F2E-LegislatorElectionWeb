@@ -1,4 +1,6 @@
-# 網頁切版直播班 Vite 範例 - Bootstrap 版本
+# The F2E競選網站
+![The F2E競選網站](https://github.com/GinaTung/2023F2E-LegislatorElectionWeb/assets/88545191/ef80dde2-95a2-44ca-9452-010729d9a50c)
+
 
 ## Node.js 版本
   - 專案的 Node.js 版本需為 v16 以上
